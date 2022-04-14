@@ -1,0 +1,235 @@
+:root {
+  --theme-main: #ffffff;
+  --theme-header: #2f303a;
+  --theme-employees: #f5f4fa;
+  --theme-btn-fcs: #2196f3;
+  --theme-body: #212121;
+  --theme-text: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--theme-body);
+}
+
+.studio-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.studio-btn:hover {
+  opacity: 0.8;
+}
+
+.portfolio-btn {
+  background: var(--theme-employees);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  background-color: var(--theme-btn-fcs);
+}
+
+.portfolio-btn.current {
+  background-color: var(--theme-btn-fcs);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------------------HEADER--------------------- */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/* ---------------------LOGO--------------------- */
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--theme-btn-fcs);
+}
+
+.logo-dark {
+  color: #000;
+}
+
+.logo-light {
+  color: #fff;
+}
+/* ---------------------title--------------------- */
+
+.title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--theme-body);
+}
+
+.title:focus,
+.title:hover {
+  color: var(--theme-btn-fcs);
+}
+
+.title-grey {
+  color: var(--theme-text);
+}
+
+.title-grey:focus,
+.title-grey:hover {
+  color: var(--theme-btn-fcs);
+}
+
+.title.link.current {
+  color: var(--theme-btn-fcs);
+}
+/* ---------------------types of work--------------------- */
+
+.main-bg {
+  background: #2f303a;
+}
+
+.business {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-btn {
+  background: var(--theme-btn-fcs);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.text-btn {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text-btn-prtf {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-body);
+}
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--theme-body);
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--theme-text);
+}
+
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-body);
+}
+
+/* ---------------------All--------------------- */
+
+.all-tilte {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--theme-body);
+}
+
+.all-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--theme-text);
+}
+
+/* ---------------------types of work in photo--------------------- */
+
+/* ---------------------employees--------------------- */
+
+.section-grey {
+  background: #f5f4fa;
+}
+
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-body);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-body);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--theme-text);
+}
+
+/* ---------------------supporting information--------------------- */
+
+.section-ftr {
+  background: #2f303a;
+}
+
+.adress {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.adress:focus,
+.adress:hover {
+  color: var(--theme-btn-fcs);
+}
+
+.adress-gray {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-gray:focus,
+.adress-gray:hover {
+  color: var(--theme-btn-fcs);
+}
