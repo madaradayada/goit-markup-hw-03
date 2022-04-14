@@ -66,6 +66,10 @@ body {
   list-style: none;
 }
 
+.header {
+  t
+}
+
 .header .container {
   display: flex;
   align-items: center;
@@ -104,7 +108,7 @@ body {
   margin-right: 93px;
 }
 /* ---------------------title--------------------- */
-.section.main-bg.container {
+.section.container {
   display: flex;
   align-items: center;
 }
@@ -150,16 +154,20 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;
+  height: 120px;
   margin-left: 252px;
   margin-right: 252px;
+  margin-top: 94px;
 }
 
 .main-btn {
   background: var(--theme-btn-fcs);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin: 0 auto;
   display: block;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: auto;
 }
 
 .text-btn {
@@ -199,6 +207,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--theme-body);
+}
+
+.section.featur {
+  display: flex;
+  align-items: center;
+}
+
+.featur:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* ---------------------All--------------------- */
