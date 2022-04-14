@@ -12,6 +12,11 @@ body {
   color: var(--theme-body);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .studio-btn {
   font-family: inherit;
   font-weight: 600;
