@@ -29,12 +29,21 @@ body {
 
 .prtf-btn-list {
   padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.prtf-btn-link + .prtf-btn-link {
+  margin-left: 30px;
 }
 
 .portfolio-btn {
   background: var(--theme-employees);
   border-radius: 4px;
   cursor: pointer;
+  border: 1px solid #eeeeee;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .portfolio-btn:focus,
@@ -228,15 +237,26 @@ body {
 
 /* ---------------------All--------------------- */
 .all-list {
-  padding-bottom: 94px;
-  padding-top: 56px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .all-items {
-  width: 370px;
+  max-width: 370px;
   height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+}
+
+.all-img-items {
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.all-items + .all-items {
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .all-tilte {
@@ -246,7 +266,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--theme-body);
   margin-top: var(--typical-margin);
-  text-align: left;
+  padding-left: 24px;
 }
 
 .all-text {
@@ -254,7 +274,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--theme-text);
-  text-align: left;
+  padding-left: 24px;
   margin-bottom: var(--typical-margin);
 }
 
