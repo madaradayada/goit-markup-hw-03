@@ -5,7 +5,9 @@
     <meta name="vievport" content="width=device-width, initial-scale=1.0" />
 
     <title>Portfolio</title>
-
+    
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,8 +15,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
   </head>
 
   <body>
@@ -40,7 +40,6 @@
           </ul>
         </nav>
 
-        <div class="header-connect">
           <ul class="header-list list">
             <li class="header-item">
               <a class="link title-grey" href="mailto:info@devstudio.com"
@@ -53,7 +52,6 @@
               </a>
             </li>
           </ul>
-        </div>
       </div>
     </header>
 
@@ -62,7 +60,7 @@
     <main>
       <section class="section">
         <div class="container">
-          <h1 class="visually-hidden"></h1>
+          <h1 class="visually-hidden">Все</h1>
           <ul class="prtf-btn-list list">
             <li class="prtf-btn-link">
               <button type="button" class="text-btn-prtf portfolio-btn current">
@@ -92,7 +90,6 @@
           </ul>
 
           <!-- <All> -->
-        <div class="all-img-items">
           <ul class="all-list list">
             <li class="all-items">
               <img
@@ -101,8 +98,10 @@
                 width="370"
                 alt="Technocrack"
               />
+              <div class="all-ti">
               <h2 class="all-tilte">Технокряк</h2>
               <p class="all-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="all-items">
               <img
@@ -111,8 +110,10 @@
                 width="370"
                 alt="Orleon"
               />
+              <div class="all-ti">
               <h2 class="all-tilte">Постер New Orlean vs Golden Star</h2>
               <p class="all-text">Дизайн</p>
+              </div>
             </li>
             <li class="all-items">
               <img
@@ -121,8 +122,10 @@
                 width="370"
                 alt="Seafood"
               />
+              <div class="all-ti">
               <h2 class="all-tilte">Ресторан Seafood</h2>
               <p class="all-text">Приложение</p>
+              </div>
             </li>
             <li class="all-items">
               <img
@@ -131,8 +134,10 @@
                 width="370"
                 alt="Prime"
               />
+              <div class="all-ti">
               <h2 class="all-tilte">Проект Prime</h2>
               <p class="all-text">Маркетинг</p>
+              </div>
             </li>
             <li class="all-items">
               <img
@@ -141,8 +146,10 @@
                 width="370"
                 alt="Boxes"
               />
+              <div class="all-ti">
               <h2 class="all-tilte">Проект Boxes</h2>
               <p class="all-text">Приложение</p>
+              </div>
             </li>
             <li class="all-items">
               <img
@@ -151,8 +158,10 @@
                 width="370"
                 alt="Inspiration"
               />
+              <div class="all-ti">
               <h2 class="all-tilte">Inspiration has no Borders</h2>
               <p class="all-text">Веб-сайт</p>
+              </div>
             </li>
             <li class="all-items">
               <img
@@ -161,13 +170,21 @@
                 width="370"
                 alt="Limited"
               />
+              <div class="all-ti">
               <h2 class="all-tilte">Издание Limited Edition</h2>
               <p class="all-text">Дизайн</p>
+              </div>
             </li>
             <li class="all-items">
-              <img class="all-img" src="images/Lab.jpg" width="370" alt="LAB" />
+              <img class="all-img" 
+                src="images/Lab.jpg" 
+                width="370" 
+                alt="LAB" 
+              />
+              <div class="all-ti">
               <h2 class="all-tilte">Проект LAB</h2>
               <p class="all-text">Маркетинг</p>
+              </div>
             </li>
             <li class="all-items">
               <img
@@ -176,23 +193,23 @@
                 width="370"
                 alt="Growing"
               />
+              <div class="all-ti">
               <h2 class="all-tilte">Growing Business</h2>
               <p class="all-text">Приложение</p>
+              </div>
             </li>
           </ul>
-        </div>
       </section>
     </main>
 
     <!-- <supporting information> -->
 
     <footer class="section-ftr">
-      <section class="section">
         <div class="container">
-          <a class="logo link" href="./index.html"
+          <a class="logo-ftr link" href="./index.html"
             >Web<span class="logo-light">Studio</span></a
           >
-          <adress>
+          <adress class="adress-ftr">
             <ul class="adress-list list">
               <li class="adress-link">
                 <a
@@ -216,7 +233,6 @@
             </ul>
           </adress>
         </div>
-      </section>
     </footer>
   </body>
 </html>
